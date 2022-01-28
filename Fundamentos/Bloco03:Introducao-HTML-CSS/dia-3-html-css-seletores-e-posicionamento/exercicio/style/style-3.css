@@ -1,0 +1,13 @@
+h1 , p{
+    text-align: center;
+}
+.list-site:hover{
+    color: rgb(93, 173, 73);
+    cursor: pointer;
+}
+.list-site:active{
+    font-family: 'sans-serif';
+}
+li{
+    list-style: none;
+}
