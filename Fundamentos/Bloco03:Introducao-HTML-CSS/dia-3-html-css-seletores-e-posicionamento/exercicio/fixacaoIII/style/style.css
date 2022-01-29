@@ -1,0 +1,47 @@
+.backyellow{
+    background-color: yellow;
+}
+.backyellow.odd{
+     text-transform: uppercase;
+}
+.backyellow.even{
+   color: green;
+}
+h1, h2{
+    color: red ;
+    font-style: italic;
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;   
+}
+
+li em{
+    font-weight: bolder;
+}
+ul li{
+color: blue;
+}
+
+ul li[java]{
+    background-color: pink;
+}
+.link-site:hover{
+    font-weight: bolder;
+}
+a[laranja]:hover{
+    color: orange;
+}
+a[green]:hover{
+    color: green;
+}
+a[preto]:hover{
+    color: black;
+}
+a[amarelo]:hover{
+    color: yellow;
+}
+a[verde]:hover{
+    color: rgb(17, 226, 17);
+}
