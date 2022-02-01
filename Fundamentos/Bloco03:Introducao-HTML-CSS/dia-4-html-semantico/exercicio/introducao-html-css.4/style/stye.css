@@ -32,7 +32,7 @@ body{
 }
 
 #content-main{
-    max-width: 1000px;
+    max-width: 900px;
     border: 1px solid rgba(0, 0, 0, 0.774);
     margin: auto;
     background-color: white;
@@ -44,4 +44,13 @@ body{
     font-size: 19px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#change-aside{
+    width: 15%;
+    height: 30%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    
 }
