@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: #f2d06b91;
+}
 .img-mantis{
     width: 600px;
     height: 430px;
@@ -25,4 +28,12 @@
     text-decoration: none;
     margin-right: 10px;
     color: white;
+}
+
+#content-main{
+    max-width: 1000px;
+    border: 1px solid rgba(0, 0, 0, 0.774);
+    margin: auto;
+    background-color: white;
+    padding: 20px;
 }
