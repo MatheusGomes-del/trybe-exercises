@@ -6,3 +6,23 @@
     width: 600px;
     height: 430px;
 }
+
+#head{
+    background-color: #024873d7;
+    height: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #0d0d0de1;
+    padding: 20px;
+}
+#navegation{
+    background-color: #037e8cc2;
+    height: 25px;
+    padding: 20px;
+}
+.link-nav{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
