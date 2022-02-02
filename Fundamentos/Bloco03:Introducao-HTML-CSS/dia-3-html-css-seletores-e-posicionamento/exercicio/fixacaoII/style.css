@@ -1,0 +1,39 @@
+div:hover{
+    border: 2px solid rgb(40, 101, 233);
+    
+}
+
+div[first]{
+    color: red;
+}
+div[second]{
+    color: grey;
+}
+div[three]{
+    color: green ;
+    height: 100px;
+}
+div[four]{
+    color: brown;
+}div[five]{
+    color: burlywood;
+}
+
+h3[one]{
+    background-color: cadetblue;
+    font-style: italic ;
+}
+h3[two]{
+    background-color: chartreuse;
+}
+h3[hthree]{
+    background-color: cornflowerblue;
+    font-style: italic ;
+}
+h3[hfour]{
+    background: coral;
+}
+h3[hfive]{
+    background-color: violet;
+    font-style: italic ;
+}
