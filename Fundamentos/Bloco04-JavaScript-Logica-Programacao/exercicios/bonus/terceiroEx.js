@@ -3,13 +3,11 @@ let numberMulti = []
 let count = 0
 
 for (let index = 0; index < numbers.length; index += 1) {
-    console.log(numbers[index]);
-    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-        console.log(numbers[secondIndex]);
-        count =  numbers[index] * numbers[secondIndex]
-        numberMulti.push(count)
+    numberMulti.push(numbers[index] * numbers[index + 1] )
+    if( index !== numbers.length - 1){
+        console.log()
+    }else{
+        numberMulti.push(numbers[index] * 2  )
     }
-    
-  }
-
-  console.log(numberMulti)
+}
+console.log(numberMulti)
