@@ -64,6 +64,54 @@
       let corpo = document.body
       corpo.appendChild(titulo)
       
+      //2° Parte
+      let principal = document.createElement('main')
+      principal.className = 'main-content'
+      corpo.appendChild(principal)
+
+      //3° Parte
+      let sessao = document.createElement('section')
+      sessao.className = 'center-content'
+      principal.appendChild(sessao)
+
+      //4° Parte
+      let paragrafo = document.createElement('p')
+      paragrafo.innerHTML = 'colocando texto de teste'
+      sessao.appendChild(paragrafo)
+
+      //5° Parte
+      let sessaoEsquerda = document.createElement('section')
+      sessaoEsquerda.className = 'left-content'
+      principal.appendChild(sessaoEsquerda)
+
+      //6° Parte
+      let sessaoDireita= document.createElement('section')
+      sessaoDireita.className = 'right-content'
+      principal.appendChild(sessaoDireita)
+
+      //7° Parte
+      let imagem = document.createElement('img')
+      imagem.className = 'small-image'
+      imagem.src = 'https://picsum.photos/200'
+      sessaoEsquerda.appendChild(imagem)
+
+      //8° Parte
+      let listaDesordenada = document.createElement('ul')
+      let numeros = ['um', 'dois', 'tres' , 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+      for(let i = 0; i < numeros.length; i++){
+        let li = document.createElement('li')
+          li.innerText = numeros[i]
+          sessaoDireita.appendChild(listaDesordenada)
+          listaDesordenada.appendChild(li)
+      }
+
+      //9° Parte
+      let firstH3 = document.createElement('h3')
+      let secondH3 = document.createElement('h3')
+      let thirdH3 = document.createElement('h3')
+      principal.appendChild(firstH3)
+      principal.appendChild(secondH3)
+      principal.appendChild(thirdH3)
     </script>
   </body>
 </html>
