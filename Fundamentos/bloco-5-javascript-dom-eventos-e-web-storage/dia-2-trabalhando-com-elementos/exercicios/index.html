@@ -103,11 +103,14 @@
       //8° Parte
       let listaDesordenada = document.createElement('ul')
       let numeros = ['um', 'dois', 'tres' , 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+    
       for(let i = 0; i < numeros.length; i++){
-        let li = document.createElement('li')
+          let li = document.createElement('li')
           li.innerText = numeros[i]
           sessaoDireita.appendChild(listaDesordenada)
           listaDesordenada.appendChild(li)
+           
+              
       }
 
       //9° Parte
@@ -123,6 +126,12 @@
       
       //Removendo section
       principal.removeChild(sessaoEsquerda)
+      
+      //Removendo li OBS: FEITO COM AJUDA DOS COLEGAS PEDRO PEREIRA E DANIEL CARDOSO
+      let ul = document.getElementsByTagName('ul')[0]
+      console.log(ul)
+      ul.removeChild(ul.lastElementChild)
+      ul.removeChild(ul.lastElementChild)
 
     </script>
   </body>
