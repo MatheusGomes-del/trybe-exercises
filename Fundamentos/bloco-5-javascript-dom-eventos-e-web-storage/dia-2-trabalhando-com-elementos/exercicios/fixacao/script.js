@@ -63,6 +63,3 @@ console.log(primeiroFilhoDoFilho)
 
 let terceiroFilho = filhoDoPrimeiroFilho.parentElement.parentNode.parentElement.lastElementChild.previousElementSibling.previousElementSibling
 console.log(terceiroFilho)
-
-
-
