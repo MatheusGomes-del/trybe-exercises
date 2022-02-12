@@ -39,3 +39,15 @@ function createDays(array){
 
 }
 console.log(createDays(dezDaysList))
+
+//2° Parte
+
+function createButton(str){
+    let button = document.createElement('button')
+    button.innerHTML = str
+    button.id = 'btn-holiday'
+
+    let buttonContainer = document.querySelector('.buttons-container')
+    buttonContainer.appendChild(button)
+}
+console.log(createButton('Feriados'))
