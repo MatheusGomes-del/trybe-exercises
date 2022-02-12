@@ -26,8 +26,15 @@ function createDays(array){
         let li = document.createElement('li')
         li.className = 'day'
         li.innerText = elements
-
         ul.appendChild(li)
+
+        if(elements == 24 || elements == 31){
+            li.className = ' day holiday'
+        }else if(elements == 4 || elements == 11 || elements == 18){
+            li.className = ' day friday'
+        }else if(elements == 25)[
+            li.className = 'day holiday friday'
+        ]
     }
 
 }
