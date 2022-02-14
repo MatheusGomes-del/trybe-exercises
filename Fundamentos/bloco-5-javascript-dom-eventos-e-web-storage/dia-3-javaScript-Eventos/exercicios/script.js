@@ -14,6 +14,8 @@ function createDaysOfTheWeek() {
   createDaysOfTheWeek();
   
   // Escreva seu código abaixo.
+
+  //1° Parte
 const dezDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
 
@@ -51,3 +53,27 @@ function createButton(str){
     buttonContainer.appendChild(button)
 }
 console.log(createButton('Feriados'))
+
+//3°Parte
+
+function changeColorButton(){
+
+    let button = document.querySelector('#btn-holiday')
+    let holiday = document.querySelectorAll('.holiday')
+    let color = 'cyan'
+
+    button.addEventListener('click', function(){
+        let array = holiday
+        for(let i = 0; i < array.length; i++){
+            if (array[i].style.backgroundColor === color) {
+                array[i].style.backgroundColor = 'rgb(238,238,238)';
+              } else {
+                array[i].style.backgroundColor = color;
+              }
+        }
+        
+    }) 
+    
+}
+
+changeColorButton()
