@@ -77,3 +77,44 @@ function changeColorButton(){
 }
 
 changeColorButton()
+
+//4° Parte
+
+function createButtonFriday(str){
+
+     let buttonContainer = document.querySelector('.buttons-container')
+
+     let buttonFriday = document.createElement('button')
+     buttonFriday.innerHTML = str
+     buttonFriday.id = 'btn-friday'
+
+     buttonContainer.appendChild(buttonFriday)
+ }
+
+createButtonFriday('Sexta-feira')
+
+//5° Parte obs: feito com ajuda com Daniel Cardoso
+
+function changeButtonFriday(str){
+    let listaFriday = document.querySelectorAll('.day.friday')
+    let buttonFriday = document.querySelector('.buttons-container')
+    let sextou = str 
+    let content = []    
+
+     for(let day in listaFriday){
+         content.push(listaFriday[day].innerHTML)
+         console.log(content)
+     }
+
+     buttonFriday.addEventListener('click', function(){
+         for(let day in listaFriday){
+            if(listaFriday[day].innerHTML == sextou){
+                listaFriday[day].innerHTML = content[day]
+            }else{
+                listaFriday[day].innerHTML = sextou  
+            } 
+         }
+    })  
+}
+
+console.log(changeButtonFriday('happHour'))
