@@ -103,7 +103,6 @@ function changeButtonFriday(str){
 
      for(let day in listaFriday){
          content.push(listaFriday[day].innerHTML)
-         console.log(content)
      }
 
      buttonFriday.addEventListener('click', function(){
