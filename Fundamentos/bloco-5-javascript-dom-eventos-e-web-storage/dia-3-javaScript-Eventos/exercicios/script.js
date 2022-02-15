@@ -148,4 +148,17 @@ function addTask(str){
    myTasks.appendChild(span)
 }
 
-addTask('Estudar Eventos em JS')
+addTask('Estudar Eventos em Js')
+
+//8° Parte
+
+function addColor(cor){
+    
+    let task = document.createElement('div')
+    task.style.backgroundColor = cor
+
+    let myTasks = document.querySelector('.my-tasks')
+    myTasks.appendChild(task)
+}
+
+addColor('green')
