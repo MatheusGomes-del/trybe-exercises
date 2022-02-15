@@ -150,6 +150,7 @@ function addTask(str){
 
 addTask('Estudar Eventos em Js')
 
+
 //8° Parte
 
 function addColor(cor){
@@ -160,5 +161,4 @@ function addColor(cor){
     let myTasks = document.querySelector('.my-tasks')
     myTasks.appendChild(task)
 }
-
-addColor('green')
+addColor('grey')
