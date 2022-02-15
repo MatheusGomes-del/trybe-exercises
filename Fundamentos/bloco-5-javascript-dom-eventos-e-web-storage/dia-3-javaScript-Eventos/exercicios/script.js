@@ -137,3 +137,15 @@ function semZoom(){
 
 effectZoom()
 semZoom()
+
+//7° Parte
+
+function addTask(str){
+   let span = document.createElement('span')
+   span.innerHTML = str
+
+   let myTasks = document.querySelector('.my-tasks')
+   myTasks.appendChild(span)
+}
+
+addTask('Estudar Eventos em JS')
