@@ -117,3 +117,23 @@ function changeButtonFriday(str){
 }
 
 console.log(changeButtonFriday('happHour'))
+
+//6° Parte
+
+function effectZoom(){
+    let dias = document.querySelector('#days')
+    
+    dias.addEventListener('mouseover', function(evento){
+       evento.target.style.fontSize = '40px'
+    })
+}
+function semZoom(){
+    let dias = document.querySelector('#days')
+
+    dias.addEventListener('mouseout', function(evento){
+       evento.target.style.fontSize = '20px'
+    })
+}
+
+effectZoom()
+semZoom()
