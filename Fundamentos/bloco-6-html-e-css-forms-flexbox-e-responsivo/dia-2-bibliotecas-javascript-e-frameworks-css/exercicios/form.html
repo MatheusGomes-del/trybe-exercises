@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="dist/css/DatePickerX.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
     <title>TrybeTrip</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
         <h1 class="title is-2">Trybe Trip</h1>
     </header>
     <section class="section">
-        <form action="#">
+        <form id="form" action="#">
              <label for="input-nome">Nome:</label>
              <input type="text" name="input-nome"  id="input-nome" class="input" minlength="10" maxlength="40">
              <br>
@@ -66,7 +67,9 @@
             </div>
         </form>
     </section>
-    <script src="node_modules/just-validate/dist/just-validate.production.min.js"></script>
+    <script>
+        const validate = new window.JustValidate('#form');
+    </script>
     <script src="script.js"></script>
     <script src="dist/js/DatePickerX.min.js"></script>
 </body>

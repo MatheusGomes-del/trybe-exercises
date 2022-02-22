@@ -9,7 +9,7 @@ validation
       errorMessage : 'preencha esta campo'
     },
     {
-      rule: 'maxLength',
+      rule: 'maxLength', 
       value: 30,
     },
   ])
