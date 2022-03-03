@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:heavy_check_mark: ] 5-5: _Fundamentos - JavaScript - Projetos_
 - [:heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels]()_
 - [:heavy_check_mark: ] 5-6: _[Projeto - Lista de tarefas]()_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
+- [:heavy_check_mark: ] 5-7: _[Projeto - Meme Generator]()_
 - [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 ​
@@ -55,7 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [:heavy_check_mark: ] 6-3: _CSS Flexbox - Part 1_
 - [:heavy_check_mark: ] 6-4: _CSS Flexbox - Part 2_
 - [:heavy_check_mark: ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Trybewarts]()_
+- [:heavy_check_mark: ] 6-6: _[Projeto - Trybewarts]()_
 ​
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 ​
