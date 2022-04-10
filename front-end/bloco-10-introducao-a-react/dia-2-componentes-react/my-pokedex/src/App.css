@@ -40,3 +40,13 @@ h1 {
     padding: 10px;
     background-color: rgb(197, 221, 221);
 }
+
+.btns {
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgba(240, 33, 33, 0.849);
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+}

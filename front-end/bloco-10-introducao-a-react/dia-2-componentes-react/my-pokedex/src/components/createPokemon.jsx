@@ -21,7 +21,7 @@ Pokemon.propTypes = {
   pokemon: PropTypes.shape({
       name: PropTypes.string,
       type: PropTypes.string,
-      averageWeight: PropTypes.number,
+      averageWeight: PropTypes.object,
       image: PropTypes.string,
       
   })
