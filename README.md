@@ -123,24 +123,24 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ​
 ##### Bloco 16: Projeto React
 ​
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [:heavy_check_mark: ] 16-1: _[Projeto - Jogo de Trivia]()_
 ​
 ##### Bloco 17: Context API & React Hooks
 ​
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [:heavy_check_mark: ] 17-1: _Context API do React_
+- [:heavy_check_mark: ] 17-2: _React Hooks - useState e useContext_
+- [:heavy_check_mark: ] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [:heavy_check_mark: ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 ​
 ##### Bloco 18: Projeto Final de Front-end
 ​
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [:heavy_check_mark: ] 18-1: _[Projeto - App de Receitas]()_
 ​
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 ​
 ##### Bloco 19: Docker: Utilizando Containers
 ​
-- [ ] 19-1: _Utilizando Containers - Docker_
+- [:heavy_check_mark: ] 19-1: _Utilizando Containers - Docker_
 - [ ] 19-2: _Manipulação e Criação de Imagens no Docker_
 - [ ] 19-3: _Orquestrando Containers com Docker Compose_
 - [ ] 19-4: _[Projeto - Docker Todo-List]()_
